@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NebulaWeb/static/css/main.bf55cd52.chunk.css",
+    "main.js": "/NebulaWeb/static/js/main.d3d0f7ec.chunk.js",
+    "main.js.map": "/NebulaWeb/static/js/main.d3d0f7ec.chunk.js.map",
+    "runtime~main.js": "/NebulaWeb/static/js/runtime~main.65db49a6.js",
+    "runtime~main.js.map": "/NebulaWeb/static/js/runtime~main.65db49a6.js.map",
+    "static/js/2.f6be9008.chunk.js": "/NebulaWeb/static/js/2.f6be9008.chunk.js",
+    "static/js/2.f6be9008.chunk.js.map": "/NebulaWeb/static/js/2.f6be9008.chunk.js.map",
+    "index.html": "/NebulaWeb/index.html",
+    "precache-manifest.fe5c0e892a3afcf5f69398924a3e79fb.js": "/NebulaWeb/precache-manifest.fe5c0e892a3afcf5f69398924a3e79fb.js",
+    "service-worker.js": "/NebulaWeb/service-worker.js",
+    "static/css/main.bf55cd52.chunk.css.map": "/NebulaWeb/static/css/main.bf55cd52.chunk.css.map"
+  }
+}
