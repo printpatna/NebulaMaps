@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NebulaWeb/precache-manifest.7c98134b23b9515f6c4c80d8ed9d18f8.js"
+  "/NebulaWeb/precache-manifest.46692401f51f92eeeeaed6f2ebd8db18.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ad1bedaf9d60c9e31a025e958a15531",
+    "revision": "de9333ce38b593b70aa7b75e33fc9a29",
     "url": "/NebulaWeb/index.html"
   },
   {
-    "revision": "56638292c54ca4c30021",
+    "revision": "79c4dc67828fec55d547",
     "url": "/NebulaWeb/static/css/main.bf55cd52.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NebulaWeb/static/js/2.f6be9008.chunk.js"
   },
   {
-    "revision": "56638292c54ca4c30021",
-    "url": "/NebulaWeb/static/js/main.d3d0f7ec.chunk.js"
+    "revision": "79c4dc67828fec55d547",
+    "url": "/NebulaWeb/static/js/main.f5c2da63.chunk.js"
   },
   {
     "revision": "8cd07bf45d6126051753",
