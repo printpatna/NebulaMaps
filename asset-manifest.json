@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NebulaWeb/static/css/main.bf55cd52.chunk.css",
-    "main.js": "/NebulaWeb/static/js/main.f5c2da63.chunk.js",
-    "main.js.map": "/NebulaWeb/static/js/main.f5c2da63.chunk.js.map",
+    "main.css": "/NebulaWeb/static/css/main.4f081474.chunk.css",
+    "main.js": "/NebulaWeb/static/js/main.cbe47721.chunk.js",
+    "main.js.map": "/NebulaWeb/static/js/main.cbe47721.chunk.js.map",
     "runtime~main.js": "/NebulaWeb/static/js/runtime~main.65db49a6.js",
     "runtime~main.js.map": "/NebulaWeb/static/js/runtime~main.65db49a6.js.map",
-    "static/js/2.f6be9008.chunk.js": "/NebulaWeb/static/js/2.f6be9008.chunk.js",
-    "static/js/2.f6be9008.chunk.js.map": "/NebulaWeb/static/js/2.f6be9008.chunk.js.map",
+    "static/js/2.f27717f4.chunk.js": "/NebulaWeb/static/js/2.f27717f4.chunk.js",
+    "static/js/2.f27717f4.chunk.js.map": "/NebulaWeb/static/js/2.f27717f4.chunk.js.map",
     "index.html": "/NebulaWeb/index.html",
-    "precache-manifest.46692401f51f92eeeeaed6f2ebd8db18.js": "/NebulaWeb/precache-manifest.46692401f51f92eeeeaed6f2ebd8db18.js",
+    "precache-manifest.ee77ac394b4061eabf9191a653c75dd9.js": "/NebulaWeb/precache-manifest.ee77ac394b4061eabf9191a653c75dd9.js",
     "service-worker.js": "/NebulaWeb/service-worker.js",
-    "static/css/main.bf55cd52.chunk.css.map": "/NebulaWeb/static/css/main.bf55cd52.chunk.css.map"
+    "static/css/main.4f081474.chunk.css.map": "/NebulaWeb/static/css/main.4f081474.chunk.css.map"
   }
 }
