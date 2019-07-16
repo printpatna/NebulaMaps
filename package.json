@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://printpatna.github.io/NebulaWeb/",
   "dependencies": {
+    "firebase": "^6.3.0",
     "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
     "react": "^16.8.6",

@@ -21,6 +21,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={MapScreen} />
         <Route path="/post/:id" exact component={SinglePostScreen} />
+        <Route path="/channels/:channel_id/posts/:post_id" exact component={SinglePostScreen} />
         <Route component={ErrorScreen} />
       </Switch>
     </Router>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { posts } from '../models';
+import { isUndefined } from 'util';
 
 function CallToAction(props) {
   if ("location" in props) {
@@ -35,30 +36,60 @@ function CallToAction(props) {
 
 export default class extends React.Component {
   async componentDidMount() {
-    posts.get(this.props.postId)
-      .then(result => result.json())
-      .then(result => {
-        console.log(result);
-        this.setState({ ...result });
-      });
+    const { channelId, postId } = this.props;
+    if (!channelId) {
+      posts.get(postId)
+        .then(result => result.json())
+        .then(result => {
+          console.log(result);
+          this.setState({ ...result });
+        });
+    } else {
+      posts.getChannelPost(channelId, postId)
+        .then(result => {
+          this.setState({ ...result });
+        })
+    }
   }
 
   state = {};
 
   render() {
+    if ("image" in this.state) {
+      const { image, highlight } = this.state;
+      return (
+        <div
+          style={styles.imageCard}
+        >
+          <img
+            src={image.uri}
+            style={{ ...styles.image, width: 400, height: image.height / image.width * 400, margin: 10 }}
+            alt=""
+          />
+          <p>{highlight.caption}</p>
+          <CallToAction {...this.state} />
+        </div>
+      );
+    } if ("uri" in this.state) {
+      return (
+        <div
+          style={styles.imageCard}
+        >
+          <img
+            src={this.state.uri}
+            style={styles.image}
+            alt=""
+          />
+          <CallToAction {...this.state} />
+        </div>
+      );
+    }
     return (
       <div
         style={styles.imageCard}
       >
-        <img
-          src={this.state.uri}
-          // style={{ width: 400, height: 400, margin: 10 }}
-          style={styles.image}
-          alt=""
-        />
-        <CallToAction {...this.state} />
-      </div>
-    );
+        <p>Image not Found!</p>
+      </div>);
   }
 }
 

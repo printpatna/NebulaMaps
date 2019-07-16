@@ -9,9 +9,9 @@ export default class extends React.Component {
           height: '100%',
         }}
       >
-        {/* <p>Single Post Screen post id {this.props.match.params.id}</p> */}
         <ImageCard
-          postId={this.props.match.params.id}
+          postId={this.props.match.params.id ? this.props.match.params.id : this.props.match.params.post_id}
+          channelId={this.props.match.params.id ? undefined : this.props.match.params.channel_id}
         />
       </div>
     )
