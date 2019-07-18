@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NebulaWeb/static/css/main.4f081474.chunk.css",
-    "main.js": "/NebulaWeb/static/js/main.cbe47721.chunk.js",
-    "main.js.map": "/NebulaWeb/static/js/main.cbe47721.chunk.js.map",
+    "main.js": "/NebulaWeb/static/js/main.f3cc88d0.chunk.js",
+    "main.js.map": "/NebulaWeb/static/js/main.f3cc88d0.chunk.js.map",
     "runtime~main.js": "/NebulaWeb/static/js/runtime~main.65db49a6.js",
     "runtime~main.js.map": "/NebulaWeb/static/js/runtime~main.65db49a6.js.map",
     "static/js/2.f27717f4.chunk.js": "/NebulaWeb/static/js/2.f27717f4.chunk.js",
     "static/js/2.f27717f4.chunk.js.map": "/NebulaWeb/static/js/2.f27717f4.chunk.js.map",
     "index.html": "/NebulaWeb/index.html",
-    "precache-manifest.ee77ac394b4061eabf9191a653c75dd9.js": "/NebulaWeb/precache-manifest.ee77ac394b4061eabf9191a653c75dd9.js",
+    "precache-manifest.b8637441cfe7a354a8eb029b3a5dbd41.js": "/NebulaWeb/precache-manifest.b8637441cfe7a354a8eb029b3a5dbd41.js",
     "service-worker.js": "/NebulaWeb/service-worker.js",
     "static/css/main.4f081474.chunk.css.map": "/NebulaWeb/static/css/main.4f081474.chunk.css.map"
   }
