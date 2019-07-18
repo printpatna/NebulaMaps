@@ -56,44 +56,63 @@ export default class extends React.Component {
 
   render() {
     if ("image" in this.state) {
-      const { image, highlight } = this.state;
+      const { image, highlight, timestamp } = this.state;
+      const date = timestamp.toDate();
       return (
         <div
-          style={styles.imageCard}
+          style={styles.container}
         >
-          <img
-            src={image.uri}
-            style={{ ...styles.image, width: 400, height: image.height / image.width * 400, margin: 10 }}
-            alt=""
-          />
-          <p>{highlight.caption}</p>
-          <CallToAction {...this.state} />
+          <div
+            style={styles.imageCard}
+          >
+            <p style={styles.timestamp}>{`${date.toDateString()}, ${date.toLocaleTimeString()}`}</p>
+            <img
+              src={image.uri}
+              style={{ ...styles.image, width: 400, height: image.height / image.width * 400, margin: 10 }}
+              alt=""
+            />
+            <p>{highlight.caption}</p>
+            <CallToAction {...this.state} />
+          </div>
         </div>
       );
     } if ("uri" in this.state) {
       return (
         <div
-          style={styles.imageCard}
+          style={styles.container}
         >
-          <img
-            src={this.state.uri}
-            style={styles.image}
-            alt=""
-          />
-          <CallToAction {...this.state} />
+          <div
+            style={styles.imageCard}
+          >
+            <img
+              src={this.state.uri}
+              style={styles.image}
+              alt=""
+            />
+            <CallToAction {...this.state} />
+          </div>
         </div>
       );
     }
     return (
       <div
-        style={styles.imageCard}
+        style={styles.container}
       >
-        <p>Image not Found!</p>
-      </div>);
+        <div
+          style={styles.imageCard}
+        >
+          <p>Image not Found!</p>
+        </div>
+      </div>
+    );
   }
 }
 
 const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
   imageCard: {
     display: 'flex',
     flexDirection: 'column',
@@ -109,6 +128,7 @@ const styles = {
     shadowOpacity: 0.30,
     shadowRadius: 4.65,
     elevation: 8,
+    width: 425,
   },
   image: {
     width: 400,
@@ -122,4 +142,7 @@ const styles = {
   imagecardCTA: {
     margin: 10,
   },
+  timestamp: {
+    alignSelf: 'flex-end',
+  }
 };
